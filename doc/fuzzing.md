@@ -5,7 +5,7 @@
 To quickly get started fuzzing Monacoin Core using [libFuzzer](https://llvm.org/docs/LibFuzzer.html):
 
 ```sh
-$ git clone https://github.com/bitcoin/bitcoin
+$ git clone https://github.com/monacoin-core/monacoin
 $ cd monacoin/
 $ ./autogen.sh
 $ CC=clang CXX=clang++ ./configure --enable-fuzz --with-sanitizers=address,fuzzer,undefined
@@ -131,7 +131,7 @@ Read the [libFuzzer documentation](https://llvm.org/docs/LibFuzzer.html) for mor
 To quickly get started fuzzing Monacoin Core using [afl++](https://github.com/AFLplusplus/AFLplusplus):
 
 ```sh
-$ git clone https://github.com/bitcoin/bitcoin
+$ git clone https://github.com/monacoin-core/monacoin
 $ cd monacoin/
 $ git clone https://github.com/AFLplusplus/AFLplusplus
 $ make -C AFLplusplus/ source-only
@@ -158,7 +158,7 @@ Read the [afl++ documentation](https://github.com/AFLplusplus/AFLplusplus) for m
 To quickly get started fuzzing Monacoin Core using [Honggfuzz](https://github.com/google/honggfuzz):
 
 ```sh
-$ git clone https://github.com/bitcoin/bitcoin
+$ git clone https://github.com/monacoin-core/monacoin
 $ cd monacoin/
 $ ./autogen.sh
 $ git clone https://github.com/google/honggfuzz
@@ -187,7 +187,7 @@ To quickly get started fuzzing the P2P layer using Honggfuzz NetDriver:
 ```sh
 $ mkdir monacoin-honggfuzz-p2p/
 $ cd monacoin-honggfuzz-p2p/
-$ git clone https://github.com/bitcoin/bitcoin
+$ git clone https://github.com/monacoin-core/monacoin
 $ cd monacoin/
 $ ./autogen.sh
 $ git clone https://github.com/google/honggfuzz

@@ -17,7 +17,7 @@ pkg_add automake # (select highest version, e.g. 1.16)
 pkg_add python # (select highest version, e.g. 3.8)
 pkg_add bash
 
-git clone https://github.com/bitcoin/bitcoin.git
+git clone https://github.com/monacoin-core/monacoin.git
 ```
 
 See [dependencies.md](dependencies.md) for a complete overview.
