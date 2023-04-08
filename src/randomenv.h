@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2019 The Bitcoin Core developers
+// Copyright (c) 2009-2019 The Monacoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_RANDOMENV_H
-#define BITCOIN_RANDOMENV_H
+#ifndef MONACOIN_RANDOMENV_H
+#define MONACOIN_RANDOMENV_H
 
 #include <crypto/sha512.h>
 

@@ -1,9 +1,9 @@
-// Copyright (c) 2009-2021 The Bitcoin Core developers
+// Copyright (c) 2009-2021 The Monacoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_TEST_FUZZ_UTIL_H
-#define BITCOIN_TEST_FUZZ_UTIL_H
+#ifndef MONACOIN_TEST_FUZZ_UTIL_H
+#define MONACOIN_TEST_FUZZ_UTIL_H
 
 #include <amount.h>
 #include <arith_uint256.h>
@@ -422,4 +422,4 @@ public:
     return FuzzedSock{fuzzed_data_provider};
 }
 
-#endif // BITCOIN_TEST_FUZZ_UTIL_H
+#endif // MONACOIN_TEST_FUZZ_UTIL_H

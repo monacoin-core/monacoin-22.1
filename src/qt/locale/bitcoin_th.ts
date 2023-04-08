@@ -66,13 +66,13 @@
         <translation type="unfinished">แอดเดรสการรับ</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">แอดเดรส Bitcoin ของคุณสำหรับการส่งการชำระเงิน โปรดตรวจสอบจำนวนเงินและแอดเดรสการรับก่อนที่จะส่งเหรียญ</translation>
+        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">แอดเดรส Monacoin ของคุณสำหรับการส่งการชำระเงิน โปรดตรวจสอบจำนวนเงินและแอดเดรสการรับก่อนที่จะส่งเหรียญ</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Monacoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">นี่คือแอดเดรสสำหรับการรับ Bitcoin ของคุณ กดปุ่ม ‘สร้างแอดเดรสการรับใหม่’ ในแถบการรับ เพื่อสร้างแอดเดรสการรับใหม่
+        <translation type="unfinished">นี่คือแอดเดรสสำหรับการรับ Monacoin ของคุณ กดปุ่ม ‘สร้างแอดเดรสการรับใหม่’ ในแถบการรับ เพื่อสร้างแอดเดรสการรับใหม่
 การลงนามสามารถทำได้เฉพาะกับแอดเดรสในประเภท 'legacy'</translation>
     </message>
     <message>
@@ -164,8 +164,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">ยืนยันการเข้ารหัสวอลเลต</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">คำเตือน: หากคุณเข้ารหัสวอลเลตของคุณและทำพาสเฟสหาย, คุณจะสูญเสีย &lt;b&gt;BITCOINS ทั้งหมดของคุณ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MONACOINS&lt;/b&gt;!</source>
+        <translation type="unfinished">คำเตือน: หากคุณเข้ารหัสวอลเลตของคุณและทำพาสเฟสหาย, คุณจะสูญเสีย &lt;b&gt;MONACOINS ทั้งหมดของคุณ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,8 +184,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">ป้อนพาสเฟสเก่าและ พาสเฟสใหม่สำหรับวอลเลต</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">โปรดจำไว้ว่าการเข้ารหัสวอลเลตของคุณไม่สามารถปกป้อง bitcoins ของคุณได้อย่างเต็มที่จากการถูกขโมยโดยมัลแวร์ที่ติดไวรัสบนคอมพิวเตอร์ของคุณ</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your monacoins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">โปรดจำไว้ว่าการเข้ารหัสวอลเลตของคุณไม่สามารถปกป้อง monacoins ของคุณได้อย่างเต็มที่จากการถูกขโมยโดยมัลแวร์ที่ติดไวรัสบนคอมพิวเตอร์ของคุณ</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -240,7 +240,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>MonacoinApplication</name>
     <message>
         <source>A fatal error occurred. %1 can no longer continue safely and will quit.</source>
         <translation type="unfinished">เกิดข้อผิดพลาดร้ายแรง%1ไม่สามารถดำเนินการต่อได้อย่างปลอดภัยและจะยกเลิก</translation>
@@ -354,7 +354,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>MonacoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;ภาพรวม</translation>
@@ -413,8 +413,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">พร็อกซี่ ถูก &lt;b&gt;เปิดใช้งาน&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>ส่งเหรียญไปยังแอดเดรส Bitcoin </translation>
+        <source>Send coins to a Monacoin address</source>
+        <translation>ส่งเหรียญไปยังแอดเดรส Monacoin </translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -465,16 +465,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished"> เซ็นชื่อ &amp;ข้อความ…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>เซ็นชื่อข้อความด้วย Bitcoin แอดเดรสของคุณเพื่อพิสูจน์การเป็นเจ้าของ</translation>
+        <source>Sign messages with your Monacoin addresses to prove you own them</source>
+        <translation>เซ็นชื่อข้อความด้วย Monacoin แอดเดรสของคุณเพื่อพิสูจน์การเป็นเจ้าของ</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">&amp;ยืนยันข้อความ…</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>ยืนยันข้อความเพื่อให้แน่ใจว่าได้ลงนามด้วยแอดเดรส Bitcoin ที่ระบุ</translation>
+        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
+        <translation>ยืนยันข้อความเพื่อให้แน่ใจว่าได้ลงนามด้วยแอดเดรส Monacoin ที่ระบุ</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -541,8 +541,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">กำลังเชื่อมต่อไปยัง peers…</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">ขอการชำระเงิน (สร้างรหัส QR และ bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and monacoin: URIs)</source>
+        <translation type="unfinished">ขอการชำระเงิน (สร้างรหัส QR และ monacoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -591,12 +591,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>ปัจจุบัน</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">โหลดธุรกรรม Bitcoin ที่ลงนามบางส่วน</translation>
+        <source>Load Partially Signed Monacoin Transaction</source>
+        <translation type="unfinished">โหลดธุรกรรม Monacoin ที่ลงนามบางส่วน</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">โหลดธุรกรรม Bitcoin ที่ลงนามบางส่วนจากคลิปบอร์ด</translation>
+        <source>Load Partially Signed Monacoin Transaction from clipboard</source>
+        <translation type="unfinished">โหลดธุรกรรม Monacoin ที่ลงนามบางส่วนจากคลิปบอร์ด</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -615,8 +615,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;แอดเดรสในการรับ</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
-        <translation type="unfinished">เปิด bitcoin: URI</translation>
+        <source>Open a monacoin: URI</source>
+        <translation type="unfinished">เปิด monacoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -667,10 +667,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">%1 ลูกค้า</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Monacoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n การเชื่อมต่อที่ใช้งานกับเครือข่าย Bitcoin</numerusform>
+            <numerusform>%n การเชื่อมต่อที่ใช้งานกับเครือข่าย Monacoin</numerusform>
         </translation>
     </message>
     <message>
@@ -1052,8 +1052,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished">%1 จะดาวน์โหลดและจัดเก็บสำเนาของบล็อกเชน Bitcoin</translation>
+        <source>%1 will download and store a copy of the Monacoin block chain.</source>
+        <translation type="unfinished">%1 จะดาวน์โหลดและจัดเก็บสำเนาของบล็อกเชน Monacoin</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1724,7 +1724,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>monacoin-core</name>
     <message>
         <source>Cannot provide specific connections and have addrman find outgoing connections at the same.</source>
         <translation type="unfinished">ไม่สามารถให้การเชื่อมต่อเฉพาะและให้ addrman ค้นหาการเชื่อมต่อขาออกที่เดียวกัน</translation>

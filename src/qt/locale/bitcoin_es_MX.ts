@@ -154,8 +154,8 @@
         <translation type="unfinished">Confirmar la encriptación de cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MONACOINS&lt;/b&gt;!</source>
+        <translation type="unfinished">Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS MONACOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -174,8 +174,8 @@
         <translation type="unfinished">Ingresa la antigua frase de contraseña y la nueva frase de contraseña para la billetera.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Recuerda que encriptar tu billetera no protege completamente tus bitcoins contra robo por malware que haya infectado tu computadora.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your monacoins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Recuerda que encriptar tu billetera no protege completamente tus monacoins contra robo por malware que haya infectado tu computadora.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -234,7 +234,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>MonacoinApplication</name>
     <message>
         <source>Runaway exception</source>
         <translation type="unfinished">Excepción fuera de control</translation>
@@ -342,7 +342,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>MonacoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Vista previa</translation>
@@ -405,8 +405,8 @@
         <translation type="unfinished">El proxy está &lt;b&gt;habilitado&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar monedas a una dirección Bitcoin</translation>
+        <source>Send coins to a Monacoin address</source>
+        <translation>Enviar monedas a una dirección Monacoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -457,16 +457,16 @@
         <translation type="unfinished">Firmar &amp;mensaje...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Firme mensajes con sus direcciones de Bitcoin para demostrar que los posee</translation>
+        <source>Sign messages with your Monacoin addresses to prove you own them</source>
+        <translation>Firme mensajes con sus direcciones de Monacoin para demostrar que los posee</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifique los mensajes para asegurarse de que se firmaron con direcciones de Bitcoin especificadas.</translation>
+        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
+        <translation>Verifique los mensajes para asegurarse de que se firmaron con direcciones de Monacoin especificadas.</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -533,9 +533,9 @@
         <translation type="unfinished">Conectando a pares...</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and monacoin: URIs)</source>
         <translation type="unfinished"> 
-Solicitar pagos (genera códigos QR y bitcoin: URI)
+Solicitar pagos (genera códigos QR y monacoin: URI)
  </translation>
     </message>
     <message>
@@ -594,8 +594,8 @@ Solicitar pagos (genera códigos QR y bitcoin: URI)
         <translation type="unfinished">Cerrar todas las carteras</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Mostrar mensaje de ayuda %1  para obtener una lista con posibles líneas de comando de Bitcoin </translation>
+        <source>Show the %1 help message to get a list with possible Monacoin command-line options</source>
+        <translation type="unfinished">Mostrar mensaje de ayuda %1  para obtener una lista con posibles líneas de comando de Monacoin </translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -618,11 +618,11 @@ Solicitar pagos (genera códigos QR y bitcoin: URI)
         <translation type="unfinished">Ventana Principal</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Monacoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n conexiones activas con la red Bitcoin</numerusform>
-            <numerusform>%n conexiones activas con la red Bitcoin </numerusform>
+            <numerusform>%n conexiones activas con la red Monacoin</numerusform>
+            <numerusform>%n conexiones activas con la red Monacoin </numerusform>
         </translation>
     </message>
     <message>
@@ -1080,12 +1080,12 @@ Solicitar pagos (genera códigos QR y bitcoin: URI)
         <translation type="unfinished">Formulario</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation type="unfinished">Las transacciones recientes pueden no ser visibles todavía, y por lo tanto el saldo de su cartera podría ser incorrecto. Esta información será correcta una vez que su cartera haya terminado de sincronizarse con la red de bitcoin, como se detalla abajo.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
+        <translation type="unfinished">Las transacciones recientes pueden no ser visibles todavía, y por lo tanto el saldo de su cartera podría ser incorrecto. Esta información será correcta una vez que su cartera haya terminado de sincronizarse con la red de monacoin, como se detalla abajo.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Los intentos de gastar bitcoins que se vean afectados por transacciones aún no mostradas no serán aceptados por la red.</translation>
+        <source>Attempting to spend monacoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation type="unfinished">Los intentos de gastar monacoins que se vean afectados por transacciones aún no mostradas no serán aceptados por la red.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1123,8 +1123,8 @@ Solicitar pagos (genera códigos QR y bitcoin: URI)
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
-        <translation type="unfinished">Abrir la URI de bitcoin</translation>
+        <source>Open monacoin URI</source>
+        <translation type="unfinished">Abrir la URI de monacoin</translation>
     </message>
     </context>
 <context>
@@ -1162,12 +1162,12 @@ Solicitar pagos (genera códigos QR y bitcoin: URI)
         <translation type="unfinished">Dispositivo Externo de Firma (ej. billetera de hardware)</translation>
     </message>
     <message>
-        <source>Full path to a Bitcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
-        <translation type="unfinished">Ruta completa al script compatible con Bitcoin Core (ej. C:\Descargas\hwi.exe o /Usuarios/SuUsuario/Descargas/hwi.py). Cuidado: código malicioso podría robarle sus monedas!</translation>
+        <source>Full path to a Monacoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
+        <translation type="unfinished">Ruta completa al script compatible con Monacoin Core (ej. C:\Descargas\hwi.exe o /Usuarios/SuUsuario/Descargas/hwi.py). Cuidado: código malicioso podría robarle sus monedas!</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Abre el puerto del cliente de Bitcoin en el router automáticamente. Esto solo funciona cuando el router soporta NAT-PMP y está habilitado. El puerto externo podría ser elegido al azar.</translation>
+        <source>Automatically open the Monacoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">Abre el puerto del cliente de Monacoin en el router automáticamente. Esto solo funciona cuando el router soporta NAT-PMP y está habilitado. El puerto externo podría ser elegido al azar.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1534,8 +1534,8 @@ Para obtener más información, escriba %6.
         <translation type="unfinished">Mensaje:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Monacoin network.</source>
+        <translation type="unfinished">Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Monacoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1867,8 +1867,8 @@ Nota: Dado que la tasa se calcula por cada byte, una tasa de "100 satoshis por k
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Advertencia: Dirección de Bitcoin invalida</translation>
+        <source>Warning: Invalid Monacoin address</source>
+        <translation type="unfinished">Advertencia: Dirección de Monacoin invalida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1902,8 +1902,8 @@ Nota: Dado que la tasa se calcula por cada byte, una tasa de "100 satoshis por k
         <translation type="unfinished">Elegir la dirección utilizada anteriormente</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">La dirección de Bitcoin para enviar el pago a</translation>
+        <source>The Monacoin address to send the payment to</source>
+        <translation type="unfinished">La dirección de Monacoin para enviar el pago a</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -2302,7 +2302,7 @@ Nota: Dado que la tasa se calcula por cada byte, una tasa de "100 satoshis por k
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>monacoin-core</name>
     <message>
         <source>Cannot downgrade wallet from version %i to version %i. Wallet version unchanged.</source>
         <translation type="unfinished">No se pudo cambiar la versión %i a la versión anterior %i.  Versión del monedero sin cambios.</translation>
