@@ -24,7 +24,7 @@ packages:
 - "python3"
 - "python3-pip"
 remotes:
-- "url": "https://github.com/monacoin/monacoin.git"
+- "url": "https://github.com/bitcoin/bitcoin.git"
   "dir": "monacoin"
 files: []
 script: |

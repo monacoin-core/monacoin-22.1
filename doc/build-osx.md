@@ -92,7 +92,7 @@ Now that all the required dependencies are installed, let's clone the Monacoin C
 All build scripts and commands will run from this directory.
 
 ``` bash
-git clone https://github.com/monacoin/monacoin.git
+git clone https://github.com/bitcoin/bitcoin.git
 ```
 
 ### 5. Install Optional Dependencies
@@ -101,7 +101,7 @@ git clone https://github.com/monacoin/monacoin.git
 
 It is not necessary to build wallet functionality to run `monacoind` or  `monacoin-qt`.
 To enable legacy wallets, you must install `berkeley-db@4`.
-To enable [descriptor wallets](https://github.com/monacoin/monacoin/blob/master/doc/descriptors.md), `sqlite` is required.
+To enable [descriptor wallets](https://github.com/bitcoin/bitcoin/blob/master/doc/descriptors.md), `sqlite` is required.
 Skip `berkeley-db@4` if you intend to *exclusively* use descriptor wallets.
 
 ###### Legacy Wallet Support
@@ -143,7 +143,7 @@ brew uninstall qt
 ```
 
 Note: Building with Qt binaries downloaded from the Qt website is not officially supported.
-See the notes in [#7714](https://github.com/monacoin/monacoin/issues/7714).
+See the notes in [#7714](https://github.com/bitcoin/bitcoin/issues/7714).
 
 ###### qrencode
 
