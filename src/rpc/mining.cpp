@@ -109,7 +109,7 @@ static RPCHelpMan getnetworkhashps()
     };
 }
 
-static bool GenerateBlock(ChainstateManager& chainman, CBlock& block, uint64_t& max_tries, unsigned int& extra_nonce, uint256& block_hash)
+static bool GenerateBlock(ChainstateManager& chainman, CBlock& block, uint64_t& max_tries, unsigned int& extra_nonce, uint256& block_hash, int nHeight)
 {
     block_hash.SetNull();
 
@@ -120,7 +120,7 @@ static bool GenerateBlock(ChainstateManager& chainman, CBlock& block, uint64_t& 
 
     CChainParams chainparams(Params());
 
-    while (max_tries > 0 && block.nNonce < std::numeric_limits<uint32_t>::max() && !CheckProofOfWork(block.GetHash(), block.nBits, chainparams.GetConsensus()) && !ShutdownRequested()) {
+    while (max_tries > 0 && block.nNonce < std::numeric_limits<uint32_t>::max() && !CheckProofOfWork(block.GetPoWHash(nHeight+1 >= Params().SwitchLyra2REv2_DGWblock()), block.nBits, chainparams.GetConsensus()) && !ShutdownRequested()) {
         ++block.nNonce;
         --max_tries;
     }
@@ -160,7 +160,7 @@ static UniValue generateBlocks(ChainstateManager& chainman, const CTxMemPool& me
         CBlock *pblock = &pblocktemplate->block;
 
         uint256 block_hash;
-        if (!GenerateBlock(chainman, *pblock, nMaxTries, nExtraNonce, block_hash)) {
+        if (!GenerateBlock(chainman, *pblock, nMaxTries, nExtraNonce, block_hash, nHeight)) {
             break;
         }
 
@@ -392,7 +392,13 @@ static RPCHelpMan generateblock()
     uint64_t max_tries{DEFAULT_MAX_TRIES};
     unsigned int extra_nonce{0};
 
-    if (!GenerateBlock(chainman, block, max_tries, extra_nonce, block_hash) || block_hash.IsNull()) {
+    int nHeight = 0;
+    {   // Don't keep cs_main locked
+        LOCK(cs_main);
+        nHeight = chainman.ActiveChain().Height();
+    }
+
+    if (!GenerateBlock(chainman, block, max_tries, extra_nonce, block_hash, nHeight) || block_hash.IsNull()) {
         throw JSONRPCError(RPC_MISC_ERROR, "Failed to make block.");
     }
 

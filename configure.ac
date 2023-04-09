@@ -332,6 +332,8 @@ AC_ARG_ENABLE([external-signer],
 
 AC_LANG_PUSH([C++])
 
+CFLAGS="$CFLAGS -fPIC"
+
 dnl Check for a flag to turn compiler warnings into errors. This is helpful for checks which may
 dnl appear to succeed because by default they merely emit warnings when they fail.
 dnl
