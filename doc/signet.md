@@ -49,7 +49,7 @@ To mine the first block in your custom chain, you can run:
     CLI="./monacoin-cli -signet"
     MINER="./miner"
     GRIND="./monacoin-util grind"
-    ADDR=$(./monacoin-cli -regtest getnewaddress "" "legacy")
+    ADDR=$(./monacoin-cli -signet getnewaddress "" "legacy")
     echo $ADDR
     NBITS=1f060000
 
