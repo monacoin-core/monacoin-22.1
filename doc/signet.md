@@ -9,9 +9,9 @@ Create a signetchallenge for your own network
 ---------------------------------------------
 Follow the steps below to get the Fujicoin legacy address and pubkey.
 
-    wget https://github.com/monacoin-core/monacoin-22.1/releases/download/m22.1.0/monacoin-m22.1.0-x86_64-linux-gnu.tar.gz
-    tar -xzvf monacoin-m22.1.0-x86_64-linux-gnu.tar.gz
-    cd monacoin-m22.1.0
+    wget https://github.com/monacoin-core/monacoin-22.1/releases/download/m22.1.1/monacoin-m22.1.1-x86_64-linux-gnu.tar.gz
+    tar -xzvf monacoin-m22.1.1-x86_64-linux-gnu.tar.gz
+    cd monacoin-m22.1.1
     mv bin/* .
     git clone https://github.com/monacoin-core/monacoin-22.1.git
     cp monacoin/contrib/signet/miner .
